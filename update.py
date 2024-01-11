@@ -8,8 +8,8 @@ EXCLUDE_DIRS = ['.git', 'docs', '.vscode', '.circleci', 'site']
 README_MD = ['README.md', 'readme.md', 'index.md']
 
 TXT_EXTS = ['md', 'txt']
-TXT_URL_PREFIX = 'https://git.223886.xyz/github.com/duskdusts/HEU-meec-resource/blob/main/'
-BIN_URL_PREFIX = 'https://git.223886.xyz/github.com/duskdusts/HEU-meec-resource/raw/main/'
+TXT_URL_PREFIX = 'https://github.com/duskdusts/HEU-meec-resource/blob/main/'
+BIN_URL_PREFIX = 'https://github.com/duskdusts/HEU-meec-resource/raw/main/'
 
 
 def list_files(course: str):
